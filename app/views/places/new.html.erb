@@ -1,2 +1,18 @@
-<h1>Places#new</h1>
-<p>Find me in app/views/places/new.html.erb</p>
+<h1>New Place</h1>
+
+<form action="/places" method="post">
+  
+  <p>
+    <label for="name">Place Name:</label><br>
+    <input type="text" name="name" id="name">
+  </p>
+  
+  <p>
+    <input type="submit" value="Create Place">
+  </p>
+</form>
+
+<p>
+  <a href="/places">Back to All Places</a>
+</p>
+
